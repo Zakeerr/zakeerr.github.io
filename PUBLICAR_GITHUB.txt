@@ -1,0 +1,14 @@
+PUBLICAR NO GITHUB PAGES
+
+1. Abra o PowerShell nesta pasta.
+2. Execute um comando por vez:
+
+git init
+git branch -M main
+git add -A
+git commit -m "Corrigir Android igual ao iPhone"
+git remote add origin https://github.com/Zakeerr/zakeerr.github.io.git
+git push -u origin main --force
+
+O arquivo .gitignore impede node_modules, .next e out de entrarem no Git.
+O workflow está em .github/workflows/nextjs.yml.

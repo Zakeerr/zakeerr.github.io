@@ -1,0 +1,18 @@
+RISEWEB — VERSÃO OTIMIZADA PARA CELULAR
+
+Arquivos principais usados no site:
+- public/fundo2-optimized.webp (fundo desktop)
+- public/riseweb-hero-background-mobile.webp (fundo celular)
+- public/riseweb-logo-loop.mp4 (animação somente no desktop)
+- public/clientes/*.webp (fotos das avaliações)
+
+O package.json está na raiz desta pasta.
+
+Para testar:
+  npm install
+  npm run dev
+
+Para gerar o site estático:
+  npm run build
+
+A pasta publicada pelo GitHub Actions deve ser: out
